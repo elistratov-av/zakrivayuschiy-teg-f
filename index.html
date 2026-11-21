@@ -15,8 +15,8 @@
   </head>
   <body class="page">
     <header class="header container">
-      <h1 class="header__title">&lt;/HTML&gt;</h1>
-      <p class="header__subtitle">закрывающий тег</p>
+      <h1 class="header__logo">&lt;/HTML&gt;</h1>
+      <p class="header__title">закрывающий тег</p>
     </header>
     <main class="main container">
       <section class="card container">
@@ -492,13 +492,11 @@
         <use href="./svg/floppy.svg#floppy"></use>
       </svg>
       <p class="dialog__message">Вставьте дискету, чтобы продолжить</p>
-      <button
-        class="button dialog__button"
-        type="button"
-        onclick="window['save-dialog'].close()"
-      >
-        <span class="button__text">ОК</span>
-      </button>
+      <form class="dialog__footer" method="dialog">
+        <button class="button dialog__button" type="submit">
+          <span class="button__text">ОК</span>
+        </button>
+      </form>
     </dialog>
 
     <script src="./scripts/like.js"></script>

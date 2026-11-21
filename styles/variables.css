@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-font: "Inter-Variable", sans-serif;
-  --accent-font: "Press Start 2P", system-ui;
+  --accent-font: "Press Start 2P", fantasy;
 
   --main-wght: 400;
   --main-bold-wght: 785;
@@ -36,6 +36,6 @@
 
   --block-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
   --header-padding-block: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
-  --header-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  --header-subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --header-logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
